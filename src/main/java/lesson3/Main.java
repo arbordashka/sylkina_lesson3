@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        //первое задание - сменить все 0 на 1 и обратно
+        //Первое задание - сменить все 0 на 1 и наоборот
         System.out.println("Первое задание:");
         int[] arr1 = {0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0};
         System.out.println("Исходный массив:");
@@ -56,7 +56,7 @@ public class Main {
             System.out.println();
         }
 
-        //Пятое задание - передать методу len и initialValue, и вернуть массив длиной len с элементами=initialValue
+        //Пятое задание - передать методу len и initialValue, и  вернуть массив длиной len с элементами=initialValue
         System.out.println("Пятое задание:");
         int len = 5;
         int initialValue = 7;
@@ -94,7 +94,6 @@ public class Main {
         shiftMassive(arr8, shift);
     }
 
-
         //Метод ждя задания 8
         public static void shiftMassive(int arr8[], int shift) {
             System.out.println(Arrays.toString(arr8));
@@ -111,7 +110,6 @@ public class Main {
             System.out.println("Сдвиг на "+shift+":");
             System.out.println(Arrays.toString(shiftArr8));
         }
-
 
         //метод для задания 7
         public static boolean checkBalance(int[] arr7) {
